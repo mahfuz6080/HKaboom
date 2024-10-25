@@ -10,9 +10,9 @@
  *  org.bukkit.command.CommandSender
  *  org.bukkit.entity.Player
  */
-package net.simplyrin.simplekaboom.commands;
+package net.mahfuz.hyblixkaboom.commands;
 
-import net.simplyrin.simplekaboom.Main;
+import net.mahfuz.hyblixkaboom.Main;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -27,7 +27,7 @@ implements CommandExecutor {
     }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (!sender.hasPermission("simplekaboom.command.admin")) {
+        if (!sender.hasPermission("kaboom.command.admin")) {
             sender.sendMessage(this.plugin.getPrefix() + "\u00a7cYou don't have access to this command!");
             return true;
         }
