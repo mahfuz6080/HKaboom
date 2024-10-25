@@ -38,7 +38,6 @@ import java.util.List;
 import net.md_5.bungee.api.ChatColor;
 import net.mahfuz.hyblixkaboom.commands.CommandKaboom;
 import org.bukkit.command.CommandExecutor;
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
