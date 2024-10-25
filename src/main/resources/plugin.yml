@@ -1,0 +1,7 @@
+main: net.mahfuz.hyblixkaboom.Main
+name: HyblixKaboom
+version: 1.1-SNAPSHOT
+author: Mahfuz
+commands:
+  kaboom:
+    usage: "/kaboom <player>"
