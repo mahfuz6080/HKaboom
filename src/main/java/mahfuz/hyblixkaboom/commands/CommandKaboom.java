@@ -24,7 +24,7 @@ public class CommandKaboom implements CommandExecutor {
 		}
 		
 		if (!(sender instanceof Player)) {
-			return;
+			return true;
 		}
 
 		if (args.length > 0) {
