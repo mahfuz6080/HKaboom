@@ -33,6 +33,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.lang.Object;
 import java.util.List;
 import net.md_5.bungee.api.ChatColor;
 import net.mahfuz.hyblixkaboom.commands.CommandKaboom;
